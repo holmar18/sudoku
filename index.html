@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <script src="app.js"></script>
+    
+    <title>Sudoku</title>
+
+</head>
+<body>
+
+    <h1 class="nameofgame">Sudoku</h1>
+      
+    
+        <table class="container_1" id="_id">
+        <tbody class="container_top_border container_2">
+            <tr>
+                <td><input class="inps" id="cell00"  type="text" value=""></td>
+                <td><input class="inps" id="cell01"  type="text" value=""></td>
+                <td><input class="inps" id="cell02"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell03"  type="text" value=""></td>
+                <td><input  class="inps" id="cell04"  type="text" value=""></td>
+                <td><input  class="inps" id="cell05"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell06"  type="text" value=""></td>
+                <td><input  class="inps" id="cell07"  type="text" value=""></td>
+                <td><input  class="inps" id="cell08"  type="text" value=""></td>
+            </tr>
+        </tbody>
+        <tbody class="container_top_border container_2">
+            <tr>
+                <td><input class="inps" id="cell10"  type="text" value=""></td>
+                <td><input class="inps" id="cell11"  type="text" value=""></td>
+                <td><input class="inps" id="cell12"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell13"  type="text" value=""></td>
+                <td><input  class="inps" id="cell14"  type="text" value=""></td>
+                <td><input  class="inps" id="cell15"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell16"  type="text" value=""></td>
+                <td><input  class="inps" id="cell17"  type="text" value=""></td>
+                <td><input  class="inps" id="cell18"  type="text" value=""></td>
+            </tr>
+        </tbody>
+                <tbody class="container_top_border_right container_2">
+            <tr>
+                <td><input class="inps" id="cell20"  type="text" value=""></td>
+                <td><input class="inps" id="cell21"  type="text" value=""></td>
+                <td><input class="inps" id="cell22"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell23"  type="text" value=""></td>
+                <td><input  class="inps" id="cell24"  type="text" value=""></td>
+                <td><input  class="inps" id="cell25"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell26"  type="text" value=""></td>
+                <td><input  class="inps" id="cell27"  type="text" value=""></td>
+                <td><input  class="inps" id="cell28"  type="text" value=""></td>
+            </tr>
+
+
+        <tbody class="container_top_border container_2">
+            <tr>
+                <td><input class="inps" id="cell30"  type="text" value=""></td>
+                <td><input class="inps" id="cell31"  type="text" value=""></td>
+                <td><input class="inps" id="cell32"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell33"  type="text" value=""></td>
+                <td><input  class="inps" id="cell34"  type="text" value=""></td>
+                <td><input  class="inps" id="cell35"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell36"  type="text" value=""></td>
+                <td><input  class="inps" id="cell37"  type="text" value=""></td>
+                <td><input  class="inps" id="cell38"  type="text" value=""></td>
+            </tr>
+        </tbody>
+        <tbody class="container_top_border container_2">
+            <tr>
+                <td><input class="inps" id="cell40"  type="text" value=""></td>
+                <td><input class="inps" id="cell41"  type="text" value=""></td>
+                <td><input class="inps" id="cell42"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell43"  type="text" value=""></td>
+                <td><input  class="inps" id="cell44"  type="text" value=""></td>
+                <td><input  class="inps" id="cell45"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell46"  type="text" value=""></td>
+                <td><input  class="inps" id="cell47"  type="text" value=""></td>
+                <td><input  class="inps" id="cell48"  type="text" value=""></td>
+            </tr>
+        </tbody>
+                <tbody class="container_top_border_right container_2">
+            <tr>
+                <td><input class="inps" id="cell50"  type="text" value=""></td>
+                <td><input class="inps" id="cell51"  type="text" value=""></td>
+                <td><input class="inps" id="cell52"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell53"  type="text" value=""></td>
+                <td><input  class="inps" id="cell54"  type="text" value=""></td>
+                <td><input  class="inps" id="cell55"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell56"  type="text" value=""></td>
+                <td><input  class="inps" id="cell57"  type="text" value=""></td>
+                <td><input  class="inps" id="cell58"  type="text" value=""></td>
+            </tr>
+
+
+        <tbody class="container_bottom container_2">
+            <tr>
+                <td><input class="inps" id="cell60"  type="text" value=""></td>
+                <td><input class="inps" id="cell61"  type="text" value=""></td>
+                <td><input class="inps" id="cell62"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell63"  type="text" value=""></td>
+                <td><input  class="inps" id="cell64"  type="text" value=""></td>
+                <td><input  class="inps" id="cell65"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell66"  type="text" value=""></td>
+                <td><input  class="inps" id="cell67"  type="text" value=""></td>
+                <td><input  class="inps" id="cell68"  type="text" value=""></td>
+            </tr>
+        </tbody>
+                <tbody class="container_bottom container_2">
+            <tr>
+                <td><input class="inps" id="cell70"  type="text" value=""></td>
+                <td><input class="inps" id="cell71"  type="text" value=""></td>
+                <td><input class="inps" id="cell72"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell73"  type="text"></td>
+                <td><input  class="inps" id="cell74"  type="text" value=""></td>
+                <td><input  class="inps" id="cell75"  type="text"></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell76"  type="text" value=""></td>
+                <td><input  class="inps" id="cell77"  type="text" value=""></td>
+                <td><input  class="inps" id="cell78"  type="text" value=""></td>
+            </tr>
+                <tbody class="container_bottom_right container_2">
+            <tr>
+                <td><input class="inps" id="cell80"  type="text" value=""></td>
+                <td><input class="inps" id="cell81"  type="text" value=""></td>
+                <td><input class="inps" id="cell82"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell83"  type="text" value=""></td>
+                <td><input  class="inps" id="cell84"  type="text" value=""></td>
+                <td><input  class="inps" id="cell85"  type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input  class="inps" id="cell86"  type="text" value=""></td>
+                <td><input  class="inps" id="cell87"  type="text" value=""></td>
+                <td><input  class="inps" id="cell88"  type="text" value=""></td>
+            </tr>
+        </tbody>
+        </table>
+
+
+    <div class="difficulti">
+        <h3 class="h3">Select difficulty:</h3>
+        <select id="difficultySelector" class="dropdown" name="Select Difficulty">
+          <option class="easy" value="easy">Easy</option>
+          <option class="medium" value="medium">Medium</option>
+          <option  class="hard" value="hard">Hard</option>
+        </select>
+    </div>
+    <div class="buttons">
+        <button id="generateButton" class="getSudoku btn btn-outline-primary" type="button" name="Generate Sudoku Board" value="Get Sudoku Board" onclick="doAjaxx()">Get Sudoku Board</button>
+        <button id="validateButton" class="getSudoku btn btn-outline-success" type="button" name="Validate Sudoku Board" value="Validate" onclick="checkValidations()">Validate</button>
+    </div>
+    <br>
+    <br>
+    <h3 id="pointsGive" class="toClose">Points: 0</h3>
+    <br>
+    <p id="sudokuId" class="toClose"><p>
+    <br>
+    <div id="resultMsg" class="alert alert-success" role="alert">You are a WINNER!</div>
+
+    <p class="css_valid">
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+    </p>
+</body>
+
+</html>
