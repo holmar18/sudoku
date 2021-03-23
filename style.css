@@ -1,0 +1,319 @@
+#resultMsg {
+    display: none;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.toClose {
+    padding: 0 0 0 3%;
+}
+
+.nameofgame {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.2em;
+    padding-top: 2%;
+    font-size: 3.7rem;
+}
+
+#pointsGive {
+    font-family: 'Bangers', cursive;
+}
+
+.css_valid {
+    text-align: center;
+}
+
+#generateButton, #validateButton {
+    margin-top: 15%;
+}
+
+body {
+    background: rgb(240,249,255);
+    background: linear-gradient(45deg, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 93%,rgba(161,219,255,1) 100%); 
+}
+
+@media only screen and (min-width: 1200px) {
+table {
+  width: 50%;
+}
+  
+td {
+  border: 0.250em solid #383636;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+tr {
+    border: 0.250em solid #383636;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+  color: #000000;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  font-size: 1.9em;
+  background-color: #FFFFFF;
+  outline: none;
+  font-weight: bold;
+}
+
+input:disabled {
+  background-color: silver;
+}
+
+
+.inps {
+    border: 0.125em solid #383636;
+}
+
+
+
+
+.container_1 {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: wrap;
+    justify-content:  center;
+
+    width: 40em;
+    margin: 0 auto 0 auto;
+}
+
+
+
+
+/*--------------------------------------------*/
+/* Thick outer border  */
+/*--------------------------------------------*/
+.container_top_border {
+    border-top: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+
+.container_top_border_right {
+    border-top: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636;
+    border-right: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+
+.container_bottom {
+    border-top: 0.3125em solid #383636;
+    border-bottom: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+
+.container_bottom_right {
+    border-top: 0.3125em solid #383636;
+    border-bottom: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636;
+    border-right: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+
+
+
+/*--------------------------------------------*/
+/* Drop down menu  */
+/*--------------------------------------------*/
+
+.difficulti {
+    display: flex;
+    width: 19em;
+    margin: 0 auto 0 auto;
+    margin-top: 2%;
+}
+
+.dropdown {
+    width: 10em;
+}
+
+#difficultySelector {
+    width: 6em;
+    font-size: 0.7em;
+    align-content: center;
+    padding-left: 1em;
+}
+      
+.h3 {
+    margin: 0 auto 0 auto;
+    font-size: 1.3em !important;
+    padding-top: 0.4em;
+    padding-left: 0.9em;
+}
+
+.easy {
+    background-color: rgb(90, 214, 162);
+}
+
+.medium {
+    background-color: #FFFF99;
+}
+
+.hard {
+    background-color: rgb(240, 128, 128);
+}
+
+
+}
+
+
+/*--------------------------------------------*/
+/* Sudoku Buttons Generate / Validate  */
+/*--------------------------------------------*/
+.getSudoku {
+    width: 10em;
+}
+
+.buttons {
+    margin: 0 auto 0 auto;
+    width: 25em;
+    padding: 0.6em 0.6em 0 1em;
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+
+table {
+    width: 50%;
+  }
+        
+td {
+  border: 0.0.3125em solid #383636;
+  text-align: center;
+  vertical-align: middle;  
+}
+      
+tr {
+    border: 0.250em solid #383636;
+}
+      
+h1 {
+    text-align: center;
+}
+      
+input {
+  color: #383636;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  font-size: 1.7em;
+  background-color: #FFFFFF;
+  outline: none;
+  font-weight: bold;
+}
+      
+input:disabled {
+  background-color: silver;
+}
+      
+      
+.inps {
+    border: 2px solid #383636;
+}
+      
+      
+.container_1 {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: wrap;
+    justify-content:  center;
+      
+    width: 31em;
+    margin: 0 auto 0 auto;
+}
+      
+.container_top_border, .container_top_border_right, .container_bottom, .container_bottom_right {
+    width: 33.33%;
+}
+      
+      
+/*--------------------------------------------*/
+/* Thick outer border  */
+/*--------------------------------------------*/
+.container_top_border {
+    border-top: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+      
+.container_top_border_right {
+    border-top: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636;
+    border-right: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+      
+.container_bottom {
+    border-top: 0.3125em solid #383636;
+    border-bottom: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+      
+.container_bottom_right {
+    border-top: 0.3125em solid #383636;
+    border-bottom: 0.3125em solid #383636;
+    border-left: 0.3125em solid #383636;
+    border-right: 0.3125em solid #383636; 
+    box-shadow: 0.3125em 0.3125em 0.9375em 0.1875em rgba(0,0,0,0.39);
+}
+      
+      
+      
+/*--------------------------------------------*/
+/* Drop down menu  */
+/*--------------------------------------------*/
+      
+.difficulti {
+    display: flex;
+    width: 20em;
+    margin: 0 auto 0 auto;
+    margin-top: 2%;
+}
+      
+.dropdown {
+    width: 5em;
+}
+
+#difficultySelector {
+    width: 6em;
+    font-size: 0.7em;
+    align-content: center;
+    padding-left: 1em;
+}
+      
+.h3 {
+    margin: 0 auto 0 auto;
+    font-size: 1.3em !important;
+    padding-top: 0.4em;
+    padding-left: 0.9em;
+}
+      
+.easy {
+    background-color: rgb(29, 243, 154);
+}
+      
+.medium {
+    background-color: rgb(239, 243, 29);
+}
+      
+.hard {
+    background-color: rgb(248, 33, 4);
+}
+      
+      
+}
